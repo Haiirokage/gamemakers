@@ -286,7 +286,6 @@
     <instance objName="obj_wall_metal" x="160" y="64" name="inst_259E943A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_metal" x="128" y="64" name="inst_7CDFDF71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_metal" x="96" y="64" name="inst_5AC7609A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall_metal" x="64" y="64" name="inst_48C391EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_metal" x="32" y="64" name="inst_31C9E151" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_metal" x="160" y="32" name="inst_5A931A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_metal" x="192" y="32" name="inst_973DF53E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -316,6 +315,11 @@
     <instance objName="obj_bouncyBall" x="64" y="160" name="inst_A7791185" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bouncyBall" x="128" y="192" name="inst_965ABEFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bouncyBall" x="640" y="288" name="inst_E699C999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_energy_bar" x="32" y="128" name="inst_86A917B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_energy_bar" x="64" y="128" name="inst_ED436F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_metal" x="32" y="64" name="inst_66B57716" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_metal" x="32" y="32" name="inst_D776BE1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall_metal" x="32" y="32" name="inst_F24261E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
@@ -324,6 +328,6 @@
   <PhysicsWorldRight>1024</PhysicsWorldRight>
   <PhysicsWorldBottom>768</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>15</PhysicsWorldGravityY>
-  <PhysicsWorldPixToMeters>0.0299999993294477</PhysicsWorldPixToMeters>
+  <PhysicsWorldGravityY>30</PhysicsWorldGravityY>
+  <PhysicsWorldPixToMeters>0.0199999995529652</PhysicsWorldPixToMeters>
 </room>

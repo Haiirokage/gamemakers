@@ -9,6 +9,8 @@
     <sprite>sprites\spr_wall_metal</sprite>
     <sprite>sprites\spr_wall_dirt</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_bar_frame</sprite>
+    <sprite>sprites\spr_bar</sprite>
     <sprite>sprites\spr_ball</sprite>
   </sprites>
   <backgrounds name="background">
@@ -22,6 +24,7 @@
     <object>objects\obj_player</object>
     <object>objects\obj_dynamic</object>
     <object>objects\obj_bouncyBall</object>
+    <object>objects\obj_energy_bar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

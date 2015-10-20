@@ -27,13 +27,13 @@
             <kind>1</kind>
             <string>grounded = false;
 col_target = undefined;
-movespeed = 18;
-jumpforce = 14;
-aircontrol = 0.2;
+movespeed = 10;
+jumpforce = 7;
+aircontrol = 0.3;
 
 cd = 100;
 hp = 100;
-armor = 3;
+armor = 10;
 </string>
           </argument>
         </arguments>
@@ -58,6 +58,7 @@ armor = 3;
             <kind>1</kind>
             <string>if cd &lt; 100{
     cd++;
+    draw_rectangle(100, 100, 200, 200, true);
 }
 if hp &lt;= 0 {
     show_message("Game over!");
@@ -95,7 +96,16 @@ if mouse_check_button_pressed(mb_left){
         cd -= 40;
         grounded = false;
         var dir = point_direction(wall.x, wall.y, x, y);
-        physics_apply_impulse(x, y, lengthdir_x(25, dir), lengthdir_y(25, dir));
+        physics_apply_impulse(x, y, lengthdir_x(10, dir), lengthdir_y(10, dir));
+    }
+}
+if mouse_check_button_pressed(mb_right){
+    wall = collision_point(mouse_x, mouse_y, obj_wall, false, true)
+    if wall &amp;&amp; cd &gt;= 40{
+        cd -= 40;
+        grounded = false;
+        var dir = point_direction(wall.x, wall.y, x, y);
+        physics_apply_impulse(x, y, lengthdir_x(-10, dir), lengthdir_y(-10, dir));
     }
 }
 </string>
